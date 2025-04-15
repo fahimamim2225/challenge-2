@@ -1,0 +1,71 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    color: #45426E;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.font-head{
+    font-family: "Bricolage Grotesque", sans-serif;
+}
+.color-head{
+    color: #17134a;
+}
+.color-body{
+    color: #45426e;
+}
+
+.bg-btn{
+    @apply bg-[#3a30ba] hover:bg-[#080a47] transition py-[16px] rounded-[5px] text-white font-medium capitalize cursor-pointer;
+}
+.btn-bg{
+    background-image: url('https://cdn.dorik.com/5e373b6c43a72a001f56dbf6/61a1f4035bfd7b0011fb92f9/images/button-bg_wqfy1ggx.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.video-wrapper {
+    background: url(https://cdn.dorik.com/5e373b6c43a72a001f56dbf6/61a1f4035bfd7b0011fb92f9/images/cms-bg_2b06w496.svg) no-repeat center center;
+    background-size: contain;
+}
+.bg-btn svg{
+    width: 12px;
+    height: 12px;
+}
+.icon svg {
+    font-size: 30px;
+    color: #3a30ba;
+    line-height: 1em;
+}
+.footer-bg {
+    background-image: url('images/footer-bg.svg');
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.dot-bg a {
+    background: #424242;
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.5rem;
+    display: inline;
+    width: 250px;
+    color: #fff;
+    font-weight: 600;
+    position: relative;
+    padding-left: 35px;
+    padding-right: 35px;
+    cursor: pointer;
+}
+.dot-bg a:before {
+    position: absolute;
+    content: "";
+    background: #33b17e;
+    left: 12px;
+    top: 12px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
